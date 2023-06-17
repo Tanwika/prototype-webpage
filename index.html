@@ -1,0 +1,31 @@
+<script //src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+<html> 
+  <head>
+    <title>A Prototype Webpage</title>
+    </head>
+  <body>
+    <h1>A prototype webpage</h1>
+    <h2>Filter Fun</h2>
+    <h3>Hurray! The task is so simple!</h2>
+    <p>You have to upload a file of an image and add filters to it by choosing one at a time from the given options. 
+      </p>
+    <canvas id = 'c1'> 
+      </canvas>
+    <p> Image File:
+      <input type='file' accept ='image/*' multiplle='false' id='img' onchange ='uploadImage()'>
+    </p>
+    <p>Filters:
+      <input type ='button' value ='grey' id='grey' onclick='changeGrey()'>
+      <input type='button' value='red' id='red' onclick='changeRed()'>
+      <input type ='button' value='blueGreen' id ='bgreen' onclick='changeBgreen()'>
+      </p>
+    <p> White-Border:
+      <input type = 'button' value='addborder' id ='border',onclick='addBorder()'>
+      </p>
+    
+    <p>
+      <input type ='button' value='reset' id='reset' onclick='reset()'>
+      </p>
+    </body>
+    </html>
